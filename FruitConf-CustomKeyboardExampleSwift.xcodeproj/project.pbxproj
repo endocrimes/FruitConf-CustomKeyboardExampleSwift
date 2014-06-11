@@ -12,6 +12,9 @@
 		650035A519489D5B0087FAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650035A319489D5B0087FAE6 /* Main.storyboard */; };
 		650035A719489D5B0087FAE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650035A619489D5B0087FAE6 /* Images.xcassets */; };
 		650035B319489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650035B219489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift */; };
+		650035C519489D7D0087FAE6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650035C419489D7D0087FAE6 /* KeyboardViewController.swift */; };
+		650035C819489D7D0087FAE6 /* co.rocketapps.FruitConf-CustomKeyboardExampleSwift.FruitConfKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 650035C019489D7D0087FAE6 /* co.rocketapps.FruitConf-CustomKeyboardExampleSwift.FruitConfKeyboard.appex */; };
+		650035D21948AC620087FAE6 /* hodor-1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 650035D11948AC620087FAE6 /* hodor-1024.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +25,35 @@
 			remoteGlobalIDString = 6500359919489D5B0087FAE6;
 			remoteInfo = "FruitConf-CustomKeyboardExampleSwift";
 		};
+		650035C619489D7D0087FAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6500359219489D5B0087FAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650035BF19489D7D0087FAE6;
+			remoteInfo = FruitConfKeyboard;
+		};
+		650035C919489D7D0087FAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6500359219489D5B0087FAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650035BF19489D7D0087FAE6;
+			remoteInfo = FruitConfKeyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		650035CE19489D7D0087FAE6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				650035C819489D7D0087FAE6 /* co.rocketapps.FruitConf-CustomKeyboardExampleSwift.FruitConfKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6500359A19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FruitConf-CustomKeyboardExampleSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +65,10 @@
 		650035AC19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FruitConf-CustomKeyboardExampleSwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		650035B119489D5B0087FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650035B219489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitConf_CustomKeyboardExampleSwiftTests.swift; sourceTree = "<group>"; };
+		650035C019489D7D0087FAE6 /* co.rocketapps.FruitConf-CustomKeyboardExampleSwift.FruitConfKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "co.rocketapps.FruitConf-CustomKeyboardExampleSwift.FruitConfKeyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650035C319489D7D0087FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650035C419489D7D0087FAE6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		650035D11948AC620087FAE6 /* hodor-1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hodor-1024.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +86,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		650035BD19489D7D0087FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +101,7 @@
 			children = (
 				6500359C19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */,
 				650035AF19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests */,
+				650035C119489D7D0087FAE6 /* FruitConfKeyboard */,
 				6500359B19489D5B0087FAE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +111,7 @@
 			children = (
 				6500359A19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift.app */,
 				650035AC19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests.xctest */,
+				650035C019489D7D0087FAE6 /* co.rocketapps.FruitConf-CustomKeyboardExampleSwift.FruitConfKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +153,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		650035C119489D7D0087FAE6 /* FruitConfKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				650035C419489D7D0087FAE6 /* KeyboardViewController.swift */,
+				650035D11948AC620087FAE6 /* hodor-1024.jpg */,
+				650035C219489D7D0087FAE6 /* Supporting Files */,
+			);
+			path = FruitConfKeyboard;
+			sourceTree = "<group>";
+		};
+		650035C219489D7D0087FAE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				650035C319489D7D0087FAE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,10 +181,13 @@
 				6500359619489D5B0087FAE6 /* Sources */,
 				6500359719489D5B0087FAE6 /* Frameworks */,
 				6500359819489D5B0087FAE6 /* Resources */,
+				650035CE19489D7D0087FAE6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				650035C719489D7D0087FAE6 /* PBXTargetDependency */,
+				650035CA19489D7D0087FAE6 /* PBXTargetDependency */,
 			);
 			name = "FruitConf-CustomKeyboardExampleSwift";
 			productName = "FruitConf-CustomKeyboardExampleSwift";
@@ -147,6 +212,23 @@
 			productReference = 650035AC19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		650035BF19489D7D0087FAE6 /* FruitConfKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650035CB19489D7D0087FAE6 /* Build configuration list for PBXNativeTarget "FruitConfKeyboard" */;
+			buildPhases = (
+				650035BC19489D7D0087FAE6 /* Sources */,
+				650035BD19489D7D0087FAE6 /* Frameworks */,
+				650035BE19489D7D0087FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruitConfKeyboard;
+			productName = FruitConfKeyboard;
+			productReference = 650035C019489D7D0087FAE6 /* co.rocketapps.FruitConf-CustomKeyboardExampleSwift.FruitConfKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,6 +244,9 @@
 					650035AB19489D5B0087FAE6 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 6500359919489D5B0087FAE6;
+					};
+					650035BF19489D7D0087FAE6 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -180,6 +265,7 @@
 			targets = (
 				6500359919489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */,
 				650035AB19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests */,
+				650035BF19489D7D0087FAE6 /* FruitConfKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +284,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650035BE19489D7D0087FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650035D21948AC620087FAE6 /* hodor-1024.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +315,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		650035BC19489D7D0087FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650035C519489D7D0087FAE6 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -228,6 +330,16 @@
 			isa = PBXTargetDependency;
 			target = 6500359919489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */;
 			targetProxy = 650035AD19489D5B0087FAE6 /* PBXContainerItemProxy */;
+		};
+		650035C719489D7D0087FAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650035BF19489D7D0087FAE6 /* FruitConfKeyboard */;
+			targetProxy = 650035C619489D7D0087FAE6 /* PBXContainerItemProxy */;
+		};
+		650035CA19489D7D0087FAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650035BF19489D7D0087FAE6 /* FruitConfKeyboard */;
+			targetProxy = 650035C919489D7D0087FAE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -380,6 +492,32 @@
 			};
 			name = Release;
 		};
+		650035CC19489D7D0087FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FruitConfKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "co.rocketapps.FruitConf-CustomKeyboardExampleSwift.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		650035CD19489D7D0087FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FruitConfKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "co.rocketapps.FruitConf-CustomKeyboardExampleSwift.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +543,14 @@
 			buildConfigurations = (
 				650035BA19489D5B0087FAE6 /* Debug */,
 				650035BB19489D5B0087FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		650035CB19489D7D0087FAE6 /* Build configuration list for PBXNativeTarget "FruitConfKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650035CC19489D7D0087FAE6 /* Debug */,
+				650035CD19489D7D0087FAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
