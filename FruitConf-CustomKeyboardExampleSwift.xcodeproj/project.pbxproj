@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650035A019489D5B0087FAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500359F19489D5B0087FAE6 /* AppDelegate.swift */; };
+		650035A219489D5B0087FAE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650035A119489D5B0087FAE6 /* ViewController.swift */; };
+		650035A519489D5B0087FAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650035A319489D5B0087FAE6 /* Main.storyboard */; };
+		650035A719489D5B0087FAE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650035A619489D5B0087FAE6 /* Images.xcassets */; };
+		650035B319489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650035B219489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650035AD19489D5B0087FAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6500359219489D5B0087FAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6500359919489D5B0087FAE6;
+			remoteInfo = "FruitConf-CustomKeyboardExampleSwift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6500359A19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FruitConf-CustomKeyboardExampleSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6500359E19489D5B0087FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6500359F19489D5B0087FAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		650035A119489D5B0087FAE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		650035A419489D5B0087FAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		650035A619489D5B0087FAE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		650035AC19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FruitConf-CustomKeyboardExampleSwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650035B119489D5B0087FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650035B219489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitConf_CustomKeyboardExampleSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6500359719489D5B0087FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650035A919489D5B0087FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6500359119489D5B0087FAE6 = {
+			isa = PBXGroup;
+			children = (
+				6500359C19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */,
+				650035AF19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests */,
+				6500359B19489D5B0087FAE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6500359B19489D5B0087FAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6500359A19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift.app */,
+				650035AC19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6500359C19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6500359F19489D5B0087FAE6 /* AppDelegate.swift */,
+				650035A119489D5B0087FAE6 /* ViewController.swift */,
+				650035A319489D5B0087FAE6 /* Main.storyboard */,
+				650035A619489D5B0087FAE6 /* Images.xcassets */,
+				6500359D19489D5B0087FAE6 /* Supporting Files */,
+			);
+			path = "FruitConf-CustomKeyboardExampleSwift";
+			sourceTree = "<group>";
+		};
+		6500359D19489D5B0087FAE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6500359E19489D5B0087FAE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		650035AF19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				650035B219489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift */,
+				650035B019489D5B0087FAE6 /* Supporting Files */,
+			);
+			path = "FruitConf-CustomKeyboardExampleSwiftTests";
+			sourceTree = "<group>";
+		};
+		650035B019489D5B0087FAE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				650035B119489D5B0087FAE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6500359919489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650035B619489D5B0087FAE6 /* Build configuration list for PBXNativeTarget "FruitConf-CustomKeyboardExampleSwift" */;
+			buildPhases = (
+				6500359619489D5B0087FAE6 /* Sources */,
+				6500359719489D5B0087FAE6 /* Frameworks */,
+				6500359819489D5B0087FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FruitConf-CustomKeyboardExampleSwift";
+			productName = "FruitConf-CustomKeyboardExampleSwift";
+			productReference = 6500359A19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650035AB19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650035B919489D5B0087FAE6 /* Build configuration list for PBXNativeTarget "FruitConf-CustomKeyboardExampleSwiftTests" */;
+			buildPhases = (
+				650035A819489D5B0087FAE6 /* Sources */,
+				650035A919489D5B0087FAE6 /* Frameworks */,
+				650035AA19489D5B0087FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650035AE19489D5B0087FAE6 /* PBXTargetDependency */,
+			);
+			name = "FruitConf-CustomKeyboardExampleSwiftTests";
+			productName = "FruitConf-CustomKeyboardExampleSwiftTests";
+			productReference = 650035AC19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6500359219489D5B0087FAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Danielle Lancashire";
+				TargetAttributes = {
+					6500359919489D5B0087FAE6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					650035AB19489D5B0087FAE6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6500359919489D5B0087FAE6;
+					};
+				};
+			};
+			buildConfigurationList = 6500359519489D5B0087FAE6 /* Build configuration list for PBXProject "FruitConf-CustomKeyboardExampleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6500359119489D5B0087FAE6;
+			productRefGroup = 6500359B19489D5B0087FAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6500359919489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */,
+				650035AB19489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6500359819489D5B0087FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650035A519489D5B0087FAE6 /* Main.storyboard in Resources */,
+				650035A719489D5B0087FAE6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650035AA19489D5B0087FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6500359619489D5B0087FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650035A219489D5B0087FAE6 /* ViewController.swift in Sources */,
+				650035A019489D5B0087FAE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650035A819489D5B0087FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650035B319489D5B0087FAE6 /* FruitConf_CustomKeyboardExampleSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650035AE19489D5B0087FAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6500359919489D5B0087FAE6 /* FruitConf-CustomKeyboardExampleSwift */;
+			targetProxy = 650035AD19489D5B0087FAE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		650035A319489D5B0087FAE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650035A419489D5B0087FAE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650035B419489D5B0087FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		650035B519489D5B0087FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		650035B719489D5B0087FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "FruitConf-CustomKeyboardExampleSwift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		650035B819489D5B0087FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "FruitConf-CustomKeyboardExampleSwift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		650035BA19489D5B0087FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FruitConf-CustomKeyboardExampleSwift.app/FruitConf-CustomKeyboardExampleSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FruitConf-CustomKeyboardExampleSwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		650035BB19489D5B0087FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FruitConf-CustomKeyboardExampleSwift.app/FruitConf-CustomKeyboardExampleSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FruitConf-CustomKeyboardExampleSwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6500359519489D5B0087FAE6 /* Build configuration list for PBXProject "FruitConf-CustomKeyboardExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650035B419489D5B0087FAE6 /* Debug */,
+				650035B519489D5B0087FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650035B619489D5B0087FAE6 /* Build configuration list for PBXNativeTarget "FruitConf-CustomKeyboardExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650035B719489D5B0087FAE6 /* Debug */,
+				650035B819489D5B0087FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		650035B919489D5B0087FAE6 /* Build configuration list for PBXNativeTarget "FruitConf-CustomKeyboardExampleSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650035BA19489D5B0087FAE6 /* Debug */,
+				650035BB19489D5B0087FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6500359219489D5B0087FAE6 /* Project object */;
+}
