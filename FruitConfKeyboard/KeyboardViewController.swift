@@ -2,7 +2,7 @@
 //  KeyboardViewController.swift
 //  FruitConfKeyboard
 //
-//  Created by  Danielle Lancashireon 11/06/2014.
+//  Created by Danielle Lancashire on 11/06/2014.
 //  Copyright (c) 2014 Danielle Lancashire. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ class KeyboardViewController: UIInputViewController {
 
     @IBOutlet var nextKeyboardButton: UIButton
     @IBOutlet var hodorButton: UIButton
-    @IBOutlet var doneButton :UIButton
+    @IBOutlet var doneButton: UIButton
 
     init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
